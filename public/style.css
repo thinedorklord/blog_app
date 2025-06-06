@@ -1,0 +1,31 @@
+/*
+  This file is intentionally minimal when using the Tailwind Play CDN.
+
+  The `@tailwind` directives are NOT needed here because the CDN script
+  in the index.html file automatically generates all the necessary utility
+  classes by scanning the HTML.
+
+  You would only add custom CSS rules here that you cannot or do not want
+  to create with Tailwind's utility classes. For this project, no such
+  custom rules are needed.
+*/
+
+/*
+  For example, if you needed a very specific animation that wasn't
+  covered by Tailwind utilities, you could add it here:
+
+  .custom-swoop-animation {
+      animation: swoop-in 0.5s ease-out forwards;
+  }
+
+  @keyframes swoop-in {
+      from {
+          opacity: 0;
+          transform: translateX(-50px);
+      }
+      to {
+          opacity: 1;
+          transform: translateX(0);
+      }
+  }
+*/
